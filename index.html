@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head-cont">
+                <h2>MY WEATHER</h2>
+                <label for="search">
+                    <input type="search" placeholder="Ukraine, Odesa">
+                </label>
+            </div>
+        </header>
+        <main>
+            <div class="head-main_cont">
+                    <div><a href="index.html" class="active">Today</a></div>
+                    <div><a href="forecast.html">5-day forecast</a></div>
+                </div>
+            <div class="error"></div>
+            <div class="hide-cont">
+                <div class="current-main_cont">
+                    </div>
+                <div class="hourly-main_cont">
+                        <h3>HOURLY</h3>
+                        <div class="hourly-cont">
+                        </div>
+                    </div>
+                     <div class="nearby-main_cont">
+                            <h3>NEARBY PLACES</h3>
+                            <div class="nearby-cont">
+                            </div>
+                    </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/info.js"></script>
+    <script src="js/today.js"></script>
+
+</body>
+</html>
